@@ -1,11 +1,13 @@
 import React from "react";
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 
-import Home from "./Home";
-import About from "./About";
-import Portofolio from "./Portofolio";
-import Contact from "./Contact";
-import NoMatch from "./NoMatch";
+import Loading from "../components/Loading";
+
+const Home = React.lazy(() => import("./Home"));
+const About = React.lazy(() => import("./About"));
+const Portofolio = React.lazy(() => import("./Portofolio"));
+const Contact = React.lazy(() => import("./Contact"));
+const NoMatch = React.lazy(() => import("./NoMatch"));
 
 export default function App() {
   return (
@@ -16,7 +18,7 @@ export default function App() {
           <Route
             path="/home"
             element={
-              <React.Suspense>
+              <React.Suspense fallback={<Loading />}>
                 <Home />
                 <About />
                 <Portofolio />
@@ -27,7 +29,7 @@ export default function App() {
           <Route
             path="/about"
             element={
-              <React.Suspense>
+              <React.Suspense fallback={<Loading />}>
                 <About />
               </React.Suspense>
             }
@@ -35,7 +37,7 @@ export default function App() {
           <Route
             path="/portofolio"
             element={
-              <React.Suspense>
+              <React.Suspense fallback={<Loading />}>
                 <Portofolio />
               </React.Suspense>
             }
@@ -43,7 +45,7 @@ export default function App() {
           <Route
             path="/contact"
             element={
-              <React.Suspense>
+              <React.Suspense fallback={<Loading />}>
                 <Contact />
               </React.Suspense>
             }

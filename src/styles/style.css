@@ -7,6 +7,7 @@
 .ant-layout-header.new-header {
   background-color: #fff;
 }
+
 .site-layout-content {
   min-height: 280px;
   padding: 24px;
@@ -16,6 +17,7 @@
   width: auto;
   height: auto;
 }
+
 .home-title {
   text-align: center;
 }
@@ -36,20 +38,31 @@
 .ant-row.row-content {
   padding-top: 30px;
 }
+.ant-typography.h5 {
+  background-color: #d3cedf;
+}
+.ant-row.row-content p {
+  font-size: medium;
+}
 .footer {
-  background-color: #caadde;
+  background-color: #d3cedf;
   text-align: left;
   padding-left: 105px;
 }
 .footerLink img {
   width: 30px;
   height: 30px;
+  margin-right: 25px;
 }
+.footerLink img:hover {
+  opacity: 50%;
+}
+
 img {
   width: 400px;
   height: 400px;
 }
-.portofolio {
+.ant-layout.portofolio {
   background-color: #f9f9f9;
   padding-top: 50px;
   padding-bottom: 70px;
@@ -65,7 +78,7 @@ img {
   padding-top: 20px;
 }
 p {
-  font-size: medium;
+  font-size: large;
 }
 .footer p {
   font-size: small;

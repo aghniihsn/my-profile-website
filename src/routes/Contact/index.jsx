@@ -16,16 +16,16 @@ function Contact() {
         </Title>
         <br />
         <a href="https://mail.google.com/mail/u/0/#inbox" className="footerLink">
-          <img src="email.png" alt="icon" />
+          <img src="img/email.png" alt="icon" />
         </a>
         <a href="https://www.linkedin.com/in/aghni-hasna-mufida-1a1576229/" className="footerLink">
-          <img src="linkedin.png" alt="icon" />
+          <img src="img/linkedin.png" alt="icon" />
         </a>
         <a href="https://github.com/aghniihsn" className="footerLink">
-          <img src="github.png" alt="icon" />
+          <img src="img/github.png" alt="icon" />
         </a>
         <a href="https://www.instagram.com/aghniihsn._/" className="footerLink">
-          <img src="instagram.png" alt="icon" />
+          <img src="img/instagram.png" alt="icon" />
         </a>
         <br />
         <br />

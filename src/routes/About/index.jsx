@@ -15,7 +15,7 @@ function About() {
           </Title>
           <Row className="row-content">
             <Col span={10} offset={2}>
-              <img src="profile.png" alt="profile" />
+              <img src="img/20220626_105257.jpg" alt="profile" />
             </Col>
             <Col span={8}>
               <p>
@@ -46,16 +46,16 @@ function About() {
               <Title level={4} type="secondary">
                 PT. Clodeo Indonesia Jaya
               </Title>
-              <Title level={5} mark>
+              <p>
                 Internship, Front-end Developer <i>• April 2022-Juni 2022</i>
-              </Title>
+              </p>
             </Col>
-            <Col span={8}>
+            <Col span={7}>
               <Title italic>Skills</Title>
               <Title level={4} type="secondary">
                 Engineering
               </Title>
-              <Title level={5} mark>
+              <Title level={5} className="h5">
                 • HTML • Javascript • Git • Java • PHP • SQLYog
               </Title>
             </Col>
