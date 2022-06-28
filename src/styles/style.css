@@ -83,3 +83,13 @@ p {
 .footer p {
   font-size: small;
 }
+.ant-btn.ant-btn-default.button {
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  border-color: #f9f9f9;
+  width: 150px;
+  height: 40px;
+}
+.ant-btn.ant-btn-default.button a {
+  color: #c689c6;
+}

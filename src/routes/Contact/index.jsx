@@ -7,7 +7,7 @@ const { Title } = Typography;
 
 function Contact() {
   return (
-    <Layout>
+    <Layout className="contact">
       <Footer className="footer">
         <Title className="footerLink">aghniihsn@gmail</Title>
         <Title level={5} type="secondary">

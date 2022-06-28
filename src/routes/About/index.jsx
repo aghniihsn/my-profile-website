@@ -7,7 +7,7 @@ const { Title } = Typography;
 
 function About() {
   return (
-    <Layout>
+    <Layout className="about">
       <Content>
         <div className="site-layout-content">
           <Title italic className="title">
