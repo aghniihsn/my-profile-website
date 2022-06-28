@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import { HashRouter, Route, Routes, Navigate } from "react-router-dom";
 
 import Loading from "../components/Loading";
 
@@ -11,7 +11,7 @@ const NoMatch = React.lazy(() => import("./NoMatch"));
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route>
           <Route
@@ -61,6 +61,6 @@ export default function App() {
           <Route path="/*" element={<NoMatch />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
