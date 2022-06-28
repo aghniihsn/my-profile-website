@@ -25,39 +25,6 @@ export default function App() {
               </React.Suspense>
             }
           />
-          {/* <Route
-            path="/home"
-            element={
-              <React.Suspense fallback={<Loading />}>
-                <Home />
-              </React.Suspense>
-            }
-          />
-          <Route
-            path="/about"
-            element={
-              <React.Suspense fallback={<Loading />}>
-                <About />
-              </React.Suspense>
-            }
-          />
-          <Route
-            path="/portofolio"
-            element={
-              <React.Suspense fallback={<Loading />}>
-                <Portofolio />
-              </React.Suspense>
-            }
-          />
-          <Route
-            path="/contact"
-            element={
-              <React.Suspense fallback={<Loading />}>
-                <Contact />
-              </React.Suspense>
-            }
-          /> */}
-
           <Route path="/*" element={<NoMatch />} />
         </Route>
       </Routes>

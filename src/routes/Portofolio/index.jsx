@@ -20,7 +20,7 @@ function portofolio() {
               style={{
                 width: 500,
               }}
-              cover={<img alt="my project" src="https://aghniihsn.github.io/my-profile-website/img/project-hr.png" />}
+              cover={<img alt="my project" src="https://aghniihsn.github.io/profile/img/project-hr.png" />}
             >
               <Meta title="Clodeo Reminder" description="clodeo reminder" />
             </Card>

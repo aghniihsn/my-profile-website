@@ -15,7 +15,7 @@ function About() {
           </Title>
           <Row className="row-content">
             <Col span={10} offset={2}>
-              <img src="https://aghniihsn.github.io/my-profile-website/img/20220626_105257.jpg" alt="profile" />
+              <img src="https://aghniihsn.github.io/profile/img/20220626_105257.jpg" alt="profile" />
             </Col>
             <Col span={8}>
               <p>
