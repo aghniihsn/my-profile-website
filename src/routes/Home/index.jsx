@@ -20,7 +20,7 @@ function Home() {
       >
         <Row>
           <Col span={12} offset={2} className="icon">
-            <img src="letter-a.png" alt="icon" />
+            <img src="https://aghniihsn.github.io/my-profile-website/img/letter-a.png" alt="icon" />
           </Col>
           <Col span={8} offset={1}>
             <Menu mode="horizontal">
