@@ -13,18 +13,18 @@ function portofolio() {
         <Title italic className="home-title">
           Portofolio
         </Title>
-        <Row gutter={[48, 24]}>
-          <Col span={8} xs={24}>
+        <Row gutter={[16, 16]}>
+          <Col className="col-img" span={8} xs={16} sm={20} md={14} lg={11} xl={12}>
             <Card hoverable cover={<img src="https://aghniihsn.github.io/profile/img/agenda.png" alt="img" />}>
               <Meta title="Clodeo Reminder" description="make agenda list" />
             </Card>
           </Col>
-          <Col span={8} xs={24}>
+          <Col className="col-img" span={8} xs={16} sm={20} md={14} lg={11} xl={12}>
             <Card hoverable cover={<img src="https://aghniihsn.github.io/profile/img/user.png" alt="img" />}>
               <Meta title="Clodeo Reminder" description="make user list" />
             </Card>
           </Col>
-          <Col span={8} xs={24}>
+          <Col className="col-img" span={8} xs={16} sm={20} md={14} lg={11} xl={12}>
             <Card hoverable cover={<img src="https://aghniihsn.github.io/profile/img/create.png" alt="img" />}>
               <Meta title="Clodeo Reminder" description="make form create user" />
             </Card>

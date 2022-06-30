@@ -61,7 +61,7 @@
 img {
   width: 100%;
   height: auto;
-  max-width: max-content;
+  max-width: 400px;
 }
 .ant-layout.portofolio {
   background-color: #f9f9f9;
@@ -70,7 +70,14 @@ img {
   padding-left: 105px;
   padding-right: 105px;
 }
-
+.ant-card.ant-card-bordered.ant-card-hoverable {
+  width: fit-content;
+}
+.col-img img {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+}
 p {
   font-size: large;
 }

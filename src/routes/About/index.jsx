@@ -31,7 +31,7 @@ function About() {
               </p>
             </Col>
           </Row>
-          <Col xs={20} sm={16} md={12} lg={10} xl={10} xxl={7}>
+          <Col xs={24} sm={16} md={12} lg={10} xl={10} xxl={7}>
             <Title italic className="title">
               Education
             </Title>
