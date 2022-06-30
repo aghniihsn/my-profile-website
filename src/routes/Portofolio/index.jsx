@@ -13,19 +13,17 @@ function portofolio() {
         <Title italic className="home-title">
           Portofolio
         </Title>
-        <div className="project">
-          <Col offset={7}>
-            <Card
-              hoverable
-              style={{
-                width: 500,
-              }}
-              cover={<img alt="my project" src="https://aghniihsn.github.io/profile/img/project-hr.png" />}
-            >
-              <Meta title="Clodeo Reminder" description="clodeo reminder" />
-            </Card>
-          </Col>
-        </div>
+        <Col span={10} offset={2} xs={14} sm={16} md={17} lg={8} xl={8}>
+          <Card
+            hoverable
+            style={{
+              width: 400,
+            }}
+            cover={<img alt="my project" src="https://aghniihsn.github.io/profile/img/project-hr.png" />}
+          >
+            <Meta title="Clodeo Reminder" description="clodeo reminder" />
+          </Card>
+        </Col>
       </Content>
     </Layout>
   );

@@ -66,13 +66,15 @@ img {
   background-color: #f9f9f9;
   padding-top: 50px;
   padding-bottom: 70px;
-  padding-right: 105px;
-  padding-left: 105px;
+  justify-content: center;
+  /* padding-right: 105px; */
+  /* padding-left: 105px; */
 }
-.project img {
-  width: 500px;
+.ant-card-cover img {
+  width: 100%;
+  max-width: 400px;
   height: auto;
-  border-radius: 20px;
+  justify-content: center;
 }
 .project {
   padding-top: 20px;
