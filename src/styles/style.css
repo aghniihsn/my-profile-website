@@ -59,22 +59,18 @@
 }
 
 img {
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  height: auto;
+  max-width: max-content;
 }
 .ant-layout.portofolio {
   background-color: #f9f9f9;
   padding-top: 50px;
   padding-bottom: 70px;
+  padding-left: 105px;
+  padding-right: 105px;
 }
-.ant-card-cover img {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-}
-.project {
-  padding-top: 20px;
-}
+
 p {
   font-size: large;
 }
