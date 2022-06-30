@@ -44,12 +44,14 @@ function Home() {
       <Content>
         <div className="site-layout-content-home">
           <div className="home-title">
-            <Title italic>Hello! I'm Aghni</Title>
-            <Title level={5} type="secondary">
+            <h1>
+              <i>Hello! I'm Aghni</i>
+            </h1>
+            <h5>
               Web Developer.
               <br />
               Currently based in Cimahi, Jawa Barat.
-            </Title>
+            </h5>
             <Button className="button">
               <a href="https://drive.google.com/file/d/1HxSCjgZ6XjSGPB8E1A6tDTom-pNPHoHy/view?usp=sharing">Download CV</a>
             </Button>

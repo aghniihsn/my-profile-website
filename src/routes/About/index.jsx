@@ -10,12 +10,14 @@ function About() {
     <Layout className="about">
       <Content>
         <div className="site-layout-content">
-          <Title italic className="title">
-            Originally from Cimahi, Jawa Barat.
-          </Title>
+          <h1 className="title">
+            <i>Originally from Cimahi, Jawa Barat.</i>
+          </h1>
           <Row className="row-content">
             <Col span={10} offset={2} xs={8} sm={16} md={9} lg={9} xl={8}>
-              <img src="https://aghniihsn.github.io/profile/img/20220626_105257.jpg" alt="profile" />
+              <div className="gambar">
+                <img src="https://aghniihsn.github.io/profile/img/20220626_105257.jpg" alt="profile" />
+              </div>
             </Col>
             <Col span={8} xs={19} sm={20} md={14} lg={11} xl={12} offset={2}>
               <p>
@@ -31,35 +33,29 @@ function About() {
               </p>
             </Col>
           </Row>
-          <Col xs={24} sm={16} md={12} lg={10} xl={10} xxl={7}>
-            <Title italic className="title">
-              Education
-            </Title>
-            <Title level={4} type="secondary" className="title">
-              SMK Negeri 11 Bandung
-            </Title>
-            <Title level={5} type="secondary" className="title">
-              Software Engineering
-            </Title>
+          <Col xs={24} sm={17} md={12} lg={10} xl={10} xxl={7}>
+            <h1 italic className="title">
+              <i>Education</i>
+            </h1>
+            <h4 className="title">SMK Negeri 11 Bandung</h4>
+            <h5 className="title">Software Engineering</h5>
           </Col>
           <Row className="row-content">
             <Col span={10} offset={2} xs={20} sm={18} lg={8}>
-              <Title italic>Experience</Title>
-              <Title level={4} type="secondary">
-                PT. Clodeo Indonesia Jaya
-              </Title>
+              <h1>
+                <i>Experience</i>
+              </h1>
+              <h4>PT. Clodeo Indonesia Jaya</h4>
               <p>
                 Internship, Front-end Developer <i>• April 2022-Juni 2022</i>
               </p>
             </Col>
             <Col offset={2} span={8} xs={20} sm={18} lg={11}>
-              <Title italic>Skills</Title>
-              <Title level={4} type="secondary">
-                Engineering
-              </Title>
-              <Title level={5} className="h5">
-                • HTML • Javascript • Git • Java • PHP • SQLYog • React
-              </Title>
+              <h1>
+                <i>Skills</i>
+              </h1>
+              <h4>Engineering</h4>
+              <p>• HTML • Javascript • Git • Java • PHP • SQLYog • React</p>
             </Col>
           </Row>
         </div>

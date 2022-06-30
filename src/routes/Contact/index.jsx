@@ -9,11 +9,11 @@ function Contact() {
   return (
     <Layout className="contact">
       <Footer className="footer">
-        <Title className="footerLink">aghniihsn@gmail</Title>
-        <Title level={5} type="secondary">
+        <h1 className="footerLink">aghniihsn@gmail</h1>
+        <h5>
           Always down to collaborate when I have the time. I'm hoping to further my career. <br />
           Let's get in touch ✌️.
-        </Title>
+        </h5>
         <br />
         <a href="https://mail.google.com/mail/u/0/#inbox" className="footerLink">
           <img src="https://aghniihsn.github.io/profile/img/email.png" alt="icon" />

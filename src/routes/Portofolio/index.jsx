@@ -10,9 +10,9 @@ function portofolio() {
   return (
     <Layout className="portofolio">
       <Content>
-        <Title italic className="home-title">
-          Portofolio
-        </Title>
+        <h1 className="home-title">
+          <i>Portofolio</i>
+        </h1>
         <Row gutter={[16, 16]}>
           <Col className="col-img" span={8} xs={16} sm={20} md={14} lg={11} xl={12}>
             <Card hoverable cover={<img src="https://aghniihsn.github.io/profile/img/agenda.png" alt="img" />}>
