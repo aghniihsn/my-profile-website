@@ -1,9 +1,8 @@
 import React from "react";
 import "antd/dist/antd.css";
-import { Typography, Row, Col, Layout } from "antd";
+import { Row, Col, Layout } from "antd";
 
 const { Content } = Layout;
-const { Title } = Typography;
 
 function About() {
   return (

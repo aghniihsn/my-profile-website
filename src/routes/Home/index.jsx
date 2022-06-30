@@ -1,10 +1,9 @@
 import React from "react";
 import "antd/dist/antd.css";
-import { Layout, Menu, Typography, Col, Row, Button } from "antd";
+import { Layout, Menu, Col, Row, Button } from "antd";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { HomeFilled } from "@ant-design/icons";
 
-const { Title } = Typography;
 const { Header, Content } = Layout;
 
 function Home() {

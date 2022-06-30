@@ -1,9 +1,8 @@
 import React from "react";
 import "antd/dist/antd.css";
-import { Layout, Typography } from "antd";
+import { Layout } from "antd";
 
 const { Footer } = Layout;
-const { Title } = Typography;
 
 function Contact() {
   return (

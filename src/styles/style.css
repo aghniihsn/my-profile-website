@@ -143,3 +143,13 @@ p {
 .ant-btn.ant-btn-default.button a {
   color: #c689c6;
 }
+h1 {
+  font-size: xx-large;
+}
+h4 {
+  font-size: large;
+}
+h5 {
+  font-size: medium;
+  opacity: 80%;
+}
