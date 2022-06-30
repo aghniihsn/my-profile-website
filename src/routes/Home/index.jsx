@@ -19,10 +19,10 @@ function Home() {
         }}
       >
         <Row>
-          <Col span={12} offset={2} className="icon">
+          <Col span={12} offset={2} className="icon" xs={10}>
             <img src="https://aghniihsn.github.io/profile/img/letter-a.png" alt="icon" />
           </Col>
-          <Col span={8} offset={1}>
+          <Col span={8} offset={1} xs={10}>
             <Menu mode="horizontal">
               <Menu.Item key="Home" icon={<HomeFilled />}>
                 <Link activeClass="active" to="layout" spy={true} smooth={true} offset={-50} duration={500} /> Home

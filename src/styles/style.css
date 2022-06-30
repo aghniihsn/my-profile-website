@@ -38,9 +38,9 @@
 .ant-row.row-content {
   padding-top: 30px;
 }
-.ant-typography.h5 {
+/* .ant-typography.h5 {
   background-color: #d3cedf;
-}
+} */
 .ant-row.row-content p {
   font-size: medium;
 }
@@ -66,15 +66,11 @@ img {
   background-color: #f9f9f9;
   padding-top: 50px;
   padding-bottom: 70px;
-  justify-content: center;
-  /* padding-right: 105px; */
-  /* padding-left: 105px; */
 }
 .ant-card-cover img {
   width: 100%;
   max-width: 400px;
   height: auto;
-  justify-content: center;
 }
 .project {
   padding-top: 20px;
